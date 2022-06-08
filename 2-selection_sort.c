@@ -9,10 +9,9 @@ void selection_sort(int *array, size_t size)
 	unsigned int i = 0, j = 0, x = 0;
 	int aux = 0;
 
-	if (size < 2)
-	{
+	if (!array || size < 2)
 		return;
-	}
+
 	for (i = 0; i < size; i++)
 	{
 		x = i;
