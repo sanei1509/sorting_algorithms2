@@ -98,4 +98,5 @@ void print_list(const listint_t *list)
 ## Authors
 
 [Mateo Arbini](https://github.com/MateoArbini)
+<br>
 [Santiago Neira](https://github.com/sanei1509)
