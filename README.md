@@ -1,6 +1,9 @@
 # Sorting algorithms & Big O
 
 name of the project → ****0x1B. C - Sorting algorithms & Big O****
+<br>
+authors ->[Mateo Arbini](https://github.com/MateoArbini)
+        -> [Santiago Neira](https://github.com/sanei1509)
 
 ## Background Context
 this project is destined to be in pairs, we must program it both
@@ -91,3 +94,8 @@ void print_list(const listint_t *list)
     printf("\n");
 }
 ````
+
+## Authors
+
+[Mateo Arbini](https://github.com/MateoArbini)
+[Santiago Neira](https://github.com/sanei1509)
