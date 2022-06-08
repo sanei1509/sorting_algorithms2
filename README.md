@@ -1,5 +1,8 @@
 # Sorting algorithms & Big O
 
+## Language
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+
 name of the project → ****0x1B. C - Sorting algorithms & Big O****
 <br>
 authors ->[Mateo Arbini](https://github.com/MateoArbini)
