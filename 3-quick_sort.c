@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- *change_position - funtion that changes the position of the numbers
+ *change_position - function that changes the position of the numbers
  *@array: array
  *@number1: first number
  *@number2: second number
@@ -20,7 +20,7 @@ void change_position(int *array, int *number1, int *number2, size_t size)
  *@low: low
  *@high: high
  *@size: size of the array
- *Return: index
+ *Return: numero de cambios realizados
  **/
 int partition(int *array, int low, int high, size_t size)
 {
@@ -33,9 +33,7 @@ int partition(int *array, int low, int high, size_t size)
 		if (array[i] <= pivot)
 		{
 			if (Index != i)
-			{
 				change_position(array, &array[i], &array[Index], size);
-			}
 			Index++;
 		}
 	}
@@ -52,13 +50,13 @@ int partition(int *array, int low, int high, size_t size)
  **/
 void quickSort(int *array, int low, int high, size_t size)
 {
-	int pi = 0;
+	int changes = 0;
 
 	if (low < high)
 	{
-		pi = partition(array, low, high, size);
-		quickSort(array, low, pi - 1, size);
-		quickSort(array, pi + 1, high, size);
+		changes = partition(array, low, high, size);
+		quickSort(array, low, changes - 1, size);
+		quickSort(array, changes + 1, high, size);
 	}
 }
 /**
