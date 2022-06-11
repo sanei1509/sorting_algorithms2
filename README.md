@@ -47,9 +47,6 @@ typedef struct listint_s
 
 To print the elements worked in the algorithm with ``ARRAY``
 ````c
-#include <stdlib.h>
-#include <stdio.h>
-
 /**
  * print_array - Prints an array of integers
  *
@@ -73,9 +70,6 @@ void print_array(const int *array, size_t size)
 ````
 To print the elements worked in the algorithm with ``LISTS``
 ````c
-#include <stdio.h>
-#include "sort.h"
-
 /**
  * print_list - Prints a list of integers
  *
